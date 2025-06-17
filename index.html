@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Estilo Clássico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-sem-fundo.png" alt="Barbearia Estilo Clássico" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">SOBRE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#barbeiros">BARBEIROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">SERVIÇOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#avaliacoes">AVALIAÇÕES</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="darkmode-toggle btn btn-link nav-link">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 fw-bold">Estilo e Tradição</h1>
+                    <p class="lead">Descubra a arte da barbearia clássica com um toque moderno.</p>
+                    <a href="#agendamento" class="btn btn-primary btn-lg">Agende Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossa História</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="lead">Desde 2010, a Barbearia Estilo Clássico tem sido referência em cortes de cabelo e barba na região. Nossa missão é proporcionar uma experiência única, combinando técnicas tradicionais com tendências modernas.</p>
+                    <p>Nossa equipe é formada por profissionais altamente qualificados e apaixonados pelo que fazem. Cada corte é uma obra de arte, cada cliente é único.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/pexels-thgusstavo-1813272.jpg" alt="Sobre a Barbearia" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Barbeiros Section -->
+    <section id="barbeiros" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Conheça Nossos Barbeiros</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card barber-card h-100 text-center">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Barbeiro João Silva" class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">João Silva</h5>
+                            <p class="card-text">Especialista em Cortes Clássicos e Barba</p>
+                            <div class="social-icons mt-3">
+                                <a href="#" class="mx-2 text-decoration-none"><i class="fab fa-instagram fa-lg"></i></a>
+                                <a href="#" class="mx-2 text-decoration-none"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card barber-card h-100 text-center">
+                        <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Barbeiro Pedro Santos" class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Pedro Santos</h5>
+                            <p class="card-text">Mestre em Design de Barba e Navalha</p>
+                            <div class="social-icons mt-3">
+                                <a href="#" class="mx-2 text-decoration-none"><i class="fab fa-instagram fa-lg"></i></a>
+                                <a href="#" class="mx-2 text-decoration-none"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card barber-card h-100 text-center">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Barbeiro Marcos Oliveira" class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Marcos Oliveira</h5>
+                            <p class="card-text">Especialista em Cortes Modernos e Tendências</p>
+                            <div class="social-icons mt-3">
+                                <a href="#" class="mx-2 text-decoration-none"><i class="fab fa-instagram fa-lg"></i></a>
+                                <a href="#" class="mx-2 text-decoration-none"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card barber-card h-100 text-center">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Barbeiro Lucas Costa" class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Lucas Costa</h5>
+                            <p class="card-text">Técnicas de Coloração e Tratamento Capilar</p>
+                            <div class="social-icons mt-3">
+                                <a href="#" class="mx-2 text-decoration-none"><i class="fab fa-instagram fa-lg"></i></a>
+                                <a href="#" class="mx-2 text-decoration-none"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos Serviços</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Corte de Cabelo</h5>
+                            <p class="card-text">Cortes modernos e clássicos, personalizados para cada cliente.</p>
+                            <p class="card-text"><strong>R$ 50,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Barba</h5>
+                            <p class="card-text">Acabamento perfeito com toalha quente e produtos premium.</p>
+                            <p class="card-text"><strong>R$ 30,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Combo Completo</h5>
+                            <p class="card-text">Corte de cabelo + barba com produtos exclusivos.</p>
+                            <p class="card-text"><strong>R$ 70,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agendamento Section -->
+    <section id="agendamento" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Agende seu Horário</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="card p-4">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="barbeiro" class="form-label">Escolha seu Barbeiro</label>
+                            <select class="form-select" id="barbeiro" required>
+                                <option value="">Selecione um barbeiro</option>
+                                <option value="joao">João Silva</option>
+                                <option value="pedro">Pedro Santos</option>
+                                <option value="marcos">Marcos Oliveira</option>
+                                <option value="lucas">Lucas Costa</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="servico" class="form-label">Serviço</label>
+                            <select class="form-select" id="servico" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="corte">Corte de Cabelo - R$ 50,00</option>
+                                <option value="barba">Barba - R$ 30,00</option>
+                                <option value="combo">Combo Completo - R$ 70,00</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="data" class="form-label">Data</label>
+                            <input type="date" class="form-control" id="data" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="hora" class="form-label">Horário</label>
+                            <select class="form-select" id="hora" required>
+                                <option value="">Selecione um horário</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Agendar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avaliações Section -->
+    <section id="avaliacoes" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Avaliações dos Clientes</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card review-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Cliente 1" class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h5 class="card-title mb-0">Carlos Silva</h5>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"Melhor barbearia da região! Atendimento excelente e profissionais muito competentes."</p>
+                            <small class="text-muted">Há 2 dias</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Cliente 2" class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h5 class="card-title mb-0">Pedro Santos</h5>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"Ambiente agradável e cortes sempre perfeitos. Recomendo!"</p>
+                            <small class="text-muted">Há 1 semana</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Cliente 3" class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h5 class="card-title mb-0">Lucas Oliveira</h5>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"Profissionais muito atenciosos e cortes modernos. Voltarei sempre!"</p>
+                            <small class="text-muted">Há 2 semanas</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">
+                    Deixe sua Avaliação
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trabalhe Conosco Section -->
+    <section id="trabalhe-conosco" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Trabalhe Conosco</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card p-4">
+                        <p class="text-center lead mb-4">Envie seu currículo e faça parte da nossa equipe de profissionais!</p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome-candidato" class="form-label">Nome Completo</label>
+                                <input type="text" class="form-control" id="nome-candidato" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email-candidato" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email-candidato" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone-candidato" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone-candidato" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="curriculo" class="form-label">Currículo (PDF)</label>
+                                <input type="file" class="form-control" id="curriculo" accept=".pdf" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Candidatura</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Barbearia Estilo Clássico</h5>
+                    <p>Rua das Barbearias, 123<br>
+                    Centro, São Paulo - SP<br>
+                    CEP: 01234-567</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+                    <p>
+                        <i class="fas fa-phone me-2"></i> (11) 9999-9999<br>
+                        <i class="fas fa-envelope me-2"></i> contato@barbearia.com<br>
+                        <i class="fas fa-clock me-2"></i> Seg-Sáb: 9h às 19h
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociais</h5>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="fab fa-instagram"></i> @barbearia_estilo</a><br>
+                        <a href="#" class="me-3"><i class="fab fa-facebook"></i> Barbearia Estilo Clássico</a><br>
+                        <a href="#" class="me-3"><i class="fab fa-whatsapp"></i> (11) 9999-9999</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Review Modal -->
+    <div class="modal fade" id="reviewModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Deixe sua Avaliação</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="review-nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="review-nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="review-rating" class="form-label">Avaliação</label>
+                            <select class="form-select" id="review-rating" required>
+                                <option value="5">5 estrelas</option>
+                                <option value="4">4 estrelas</option>
+                                <option value="3">3 estrelas</option>
+                                <option value="2">2 estrelas</option>
+                                <option value="1">1 estrela</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="review-text" class="form-label">Comentário</label>
+                            <textarea class="form-control" id="review-text" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Avaliação</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="formatacao.js"></script>
+</body>
+</html>
